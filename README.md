@@ -73,8 +73,8 @@ Credit_Card_Fraud_Detection/
 ```bash
     streamlit run app.py
 ```
-    2- Access the app
-    Open a web browser and navigate to http://localhost:8501/ to interact with the application.
+#### 2- Access the app
+##### Open a web browser and navigate to http://localhost:8501/ to interact with the application.
 
 ## Future Work
 
