@@ -1,0 +1,147 @@
+{
+    "trial_0": {
+        "model_name": "Logistic Regression",
+        "timestamp": "2024-11-23 16:09:22",
+        "best_params": {
+            "C": 1.0,
+            "class_weight": null,
+            "dual": false,
+            "fit_intercept": true,
+            "intercept_scaling": 1,
+            "l1_ratio": 0.5,
+            "max_iter": 500,
+            "multi_class": "deprecated",
+            "n_jobs": null,
+            "penalty": "elasticnet",
+            "random_state": null,
+            "solver": "saga",
+            "tol": 0.0001,
+            "verbose": 0,
+            "warm_start": false
+        },
+        "scaler": "StandardScaler",
+        "sampler": "SMOTEENN",
+        "best_score": 0.9787359641494703,
+        "Validation_scores": {
+            "best_precision": 0.0016516792071939806,
+            "best_f1": 0.003297911322828875,
+            "best_recall": 1.0
+        }
+    },
+    "trial_1": {
+        "model_name": "Logistic Regression",
+        "timestamp": "2024-11-23 16:18:47",
+        "best_params": {
+            "C": 1.0,
+            "class_weight": null,
+            "dual": false,
+            "fit_intercept": true,
+            "intercept_scaling": 1,
+            "l1_ratio": 0.5,
+            "max_iter": 500,
+            "multi_class": "deprecated",
+            "n_jobs": null,
+            "penalty": "elasticnet",
+            "random_state": null,
+            "solver": "saga",
+            "tol": 0.0001,
+            "verbose": 0,
+            "warm_start": false
+        },
+        "scaler": "StandardScaler",
+        "sampler": "SMOTEENN",
+        "best_score": 0.9786756522058194,
+        "Validation_scores": {
+            "best_precision": 0.0016546550963376968,
+            "best_f1": 0.003303843471238207,
+            "best_recall": 1.0
+        }
+    },
+    "trial_2": {
+        "model_name": "Logistic Regression",
+        "timestamp": "2024-11-23 16:29:34",
+        "best_params": {
+            "C": 1.0,
+            "class_weight": null,
+            "dual": false,
+            "fit_intercept": true,
+            "intercept_scaling": 1,
+            "l1_ratio": 0.5,
+            "max_iter": 500,
+            "multi_class": "deprecated",
+            "n_jobs": null,
+            "penalty": "elasticnet",
+            "random_state": null,
+            "solver": "saga",
+            "tol": 0.0001,
+            "verbose": 0,
+            "warm_start": false
+        },
+        "scaler": "RobustScaler",
+        "sampler": "SVMSMOTE",
+        "best_score": 0.9969265781057438,
+        "Validation_scores": {
+            "best_precision": 0.007634943181818182,
+            "best_f1": 0.015148846221595914,
+            "best_recall": 0.9555555555555556
+        }
+    },
+    "trial_3": {
+        "model_name": "Logistic Regression",
+        "timestamp": "2024-11-23 16:37:00",
+        "best_params": {
+            "C": 1.0,
+            "class_weight": null,
+            "dual": false,
+            "fit_intercept": true,
+            "intercept_scaling": 1,
+            "l1_ratio": 0.5,
+            "max_iter": 500,
+            "multi_class": "deprecated",
+            "n_jobs": null,
+            "penalty": "elasticnet",
+            "random_state": null,
+            "solver": "saga",
+            "tol": 0.0001,
+            "verbose": 0,
+            "warm_start": false
+        },
+        "scaler": "RobustScaler",
+        "sampler": "SMOTETomek",
+        "best_score": 0.9762006785550769,
+        "Validation_scores": {
+            "best_precision": 0.0025413678206359066,
+            "best_f1": 0.005069851284362326,
+            "best_recall": 1.0
+        }
+    },
+    "trial_4": {
+        "model_name": "Logistic Regression",
+        "timestamp": "2024-11-23 19:31:36",
+        "best_params": {
+            "C": 1.0,
+            "class_weight": null,
+            "dual": false,
+            "fit_intercept": true,
+            "intercept_scaling": 1,
+            "l1_ratio": 0.5,
+            "max_iter": 500,
+            "multi_class": "deprecated",
+            "n_jobs": null,
+            "penalty": "elasticnet",
+            "random_state": null,
+            "solver": "saga",
+            "tol": 0.0001,
+            "verbose": 0,
+            "warm_start": false
+        },
+        "scaler": "RobustScaler",
+        "sampler": "SMOTETomek",
+        "best_score": 0.9762006785550769,
+        "Validation_scores": {
+            "best_precision": 0.002541439584333437,
+            "best_f1": 0.005069994085006901,
+            "best_recall": 1.0
+        }
+    }
+}

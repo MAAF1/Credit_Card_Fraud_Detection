@@ -1,0 +1,17 @@
+{
+    "trial_0": {
+        "model_name": "Logistic Regression",
+        "timestamp": "2024-11-27 13:13:58",
+        "best_params": {
+            "classifier__C": 1.0,
+            "classifier__l1_ratio": 0,
+            "classifier__max_iter": 4000
+        },
+        "best_score": 0.8273988364047005,
+        "Validation_scores": {
+            "best_precision": 0.9024390243902439,
+            "best_f1": 0.7668393782383419,
+            "best_recall": 0.6666666666666666
+        }
+    }
+}

@@ -1,0 +1,15 @@
+dataset:
+  train:
+   path: data/train.csv
+  val:
+    path: data/val.csv
+  test: 
+    path: data/test.csv
+
+scaler: R
+
+balance:
+  balance_type: SMOTE
+  k: 5
+  random_state:  42
+  sampling_strategy : 0.05
