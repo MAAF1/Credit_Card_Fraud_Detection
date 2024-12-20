@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Credit Card Fraud Detection</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/darkly/bootstrap.min.css">
+    <style>
+        .form-group {
+            margin-bottom: 5px;
+        }
+
+        .form-control {
+            font-size: 0.8rem;
+        }
+
+        .btn {
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Credit Card Transaction Prediction</h1>
+        <form method="post" action="/predict">
+            {% for group in feature_groups %}
+            <div class="row">
+                {% for feature in group %}
+                <div class="col-3">
+                    <div class="form-group">
+                        <label for="{{ feature }}">{{ feature }}:</label>
+                        <input type="number" class="form-control form-control-sm" id="{{ feature }}"
+                            name="{{ feature }}" step="any" inputmode="numeric" value="{{ default_values[feature] }}"
+                            required>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endfor %}
+            <button type="submit" class="btn btn-primary btn-sm">Predict</button>
+        </form>
+    </div>
+</body>
+
+</html>

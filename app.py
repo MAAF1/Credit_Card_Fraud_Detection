@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
-from src.utils import *
+from src import load_model
 
 model = load_model('saves/models/Voting Classifier_20241129_040510.pkl')
 def predict(input_data):
