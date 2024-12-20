@@ -69,9 +69,10 @@ Credit_Card_Fraud_Detection/
     voting_classifier
 
 ### Running the Streamlit App
-#### 1 - Start the streamlit app
+#### 1 - Start the streamlit app (added flask)
 ```bash
     streamlit run app.py
+    python flask_app.py
 ```
 #### 2- Access the app
 ##### Open a web browser and navigate to http://localhost:8501/ to interact with the application.
