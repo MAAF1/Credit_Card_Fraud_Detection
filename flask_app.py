@@ -222,7 +222,7 @@ def predict():
 
 
 def start_ngrok():
-    conf.get_default().auth_token = "2n7RyLpbxh1OZKI50WTjJP5T11l_3uL2AMSCb8Tkw7u9TfyJm"
+    conf.get_default().auth_token = "NGROK_TOKEN_HERE"
     port = 5000
     try:
         public_url = ngrok.connect(port)
