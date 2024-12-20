@@ -14,6 +14,7 @@ The project is organized as follows:
 ```plaintext
 Credit_Card_Fraud_Detection/
 ├── app.py
+├── flask_app.py
 ├── config/
 │   └── config.yml
 ├── data/
@@ -21,8 +22,7 @@ Credit_Card_Fraud_Detection/
 │   ├── test.csv
 │   └── README.md
 ├── notebooks/
-│   ├── exploratory_data_analysis.ipynb
-│   └── model_training.ipynb
+│   └── EDA.ipynb
 ├── __pycache__/
 ├── README.md
 ├── requirements.txt
@@ -35,7 +35,12 @@ Credit_Card_Fraud_Detection/
 │   ├── credit_fraud_utils_eval.py
 │   ├── __init__.py
 │   ├── train.py
-|   └── utils.py
+|   ├── utils.py
+|   └── predict.py
+├── templates/
+│   ├── index.html
+│   └── result.html
+
 ```
 ## Installation
 ### To setup the project follow these steps:
